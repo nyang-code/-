@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.region-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'GmarketSansMedium', Arial, sans-serif;
+}
+
+.region-page h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left; 
+}
+
+.market-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.market-item {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.market-image-container {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right : 20px;
+}
+
+.region-page img.market-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.market-info {
+  flex-grow: 1;
+  text-align: left; 
+}
+
+.market-info h3 {
+  font-size: 18px;
+  margin: 0;
+  text-align: left; 
+}
+
+.market-info p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0;
+  text-align: left; 
+}
+
+.market-location {
+  font-size: 14px; 
+  color: #444; 
+  margin-top: 5px; 
+}

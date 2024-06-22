@@ -1,0 +1,90 @@
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2), 
+      rgba(255, 255, 255, 0.2)
+    ), 
+    url('/bam.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 260px;
+  height: 250px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  gap: 100px;
+}
+
+.nav-list li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list a {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+
+.icon.home-icon:hover {
+  content: url('/home2.png');
+  transform: scale(1.2);
+}
+
+.icon.map-icon:hover {
+  transform: scale(1.2);
+}
+
+.icon.contact-icon:hover {
+  content: url('/yellow.png');
+  transform: scale(1.2);
+}

@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.market-detail {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'GmarketSansMedium', Arial, sans-serif;
+}
+
+.market-detail h2 {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+img.market-image {
+  width: 300px;
+  height: 350px;
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center; 
+}
+
+.section-buttons button {
+  background-color: palevioletred;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; 
+  font-size: 16px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.section-buttons button:hover {
+  background-color: pink;
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.section-buttons button:active {
+  background-color: #3E8E41;
+  transform: translateY(2px); 
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.market-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.market-item {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.item-image {
+  width: 100%; 
+  height: auto; 
+  max-width: 300px; 
+  max-height: 200px; 
+  object-fit: contain; 
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.market-item h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.market-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+.market-description {
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.market-location {
+  font-size: 14px; 
+  color: #444; 
+  margin-bottom: 20px; 
+}
+
+.back-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  width: 200px; 
+  height: 200px; 
+  z-index: 1000;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-button:hover {
+  transform: translateY(-10px); 
+}

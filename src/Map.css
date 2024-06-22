@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.map-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+
+.sidebar {
+  margin-right: 20px;
+  flex: 0 0 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.map-description {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  text-align: left;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-family: 'Cafe24Ssurround', sans-serif;
+  margin-bottom: 20px;
+}
+
+.map-recommendation {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  text-align: left;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-family: 'Cafe24Ssurround', sans-serif;
+  margin-top: 20px;
+}
+
+.map-description p, .map-recommendation p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.map-description ul, .map-recommendation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: none;
+}
+
+.map-description:hover ul, .map-recommendation:hover ul {
+  display: block;
+}
+
+.map-description li, .map-recommendation li {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.map-container {
+  flex: 1;
+  font-weight: bolder;
+  position: relative;
+  margin-top: 20px;
+}
+
+.map-image {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.background-image {
+  width: 80%;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+}
+
+.region-label {
+  position: absolute;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 14px;
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+.region-label:hover {
+  transform: scale(1.1);
+  border: solid 1px #ffd700;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+.region-label.disabled {
+  color: gray;
+  cursor: default;
+  pointer-events: none;
+}
+
+.region-label.disabled:hover {
+  transform: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* 기본 설정: 오른쪽 끝 */
+.market-banner {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 10;
+  border: 2px solid #ffd700;
+  animation: fadeIn 2s ease-in-out;
+  font-family: 'Cafe24Ssurround', sans-serif;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .map-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar {
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .map-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .market-banner {
+    position: relative;
+    margin: 0 auto;
+    top: auto;
+    right: auto;
+    left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .map-image {
+    width: 100%;
+    max-width: none;
+  }
+
+  .region-label {
+    transform: none;
+  }
+
+
+  .region-label {
+    font-size: 12px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: scale(0.9);
+  }
+  100% {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+.market-banner p {
+  color: #000;
+}
+
+.market-banner .highlight-yellow {
+  color: black;
+  border: solid 2px #ffd700;
+  background-color: #ffd700;
+  color: black;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+  border-radius: 30px;
+}
+
+.market-banner .highlight-red {
+  color: red;
+  font-weight: bold;
+}
+
+/* 클릭 불가능한 지역들 */
+.region-label[data-region="cheorwon"],
+.region-label[data-region="hwacheon"],
+.region-label[data-region="yanggu"],
+.region-label[data-region="hongcheon"],
+.region-label[data-region="pyeongchang"],
+.region-label[data-region="hoengseong"],
+.region-label[data-region="jeongseon"] {
+  color: gray;
+  cursor: default;
+  pointer-events: none;
+}
