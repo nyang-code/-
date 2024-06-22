@@ -57,7 +57,7 @@ css, js -> React
 
 ## 구현개발 영상
 
-
+https://youtu.be/eWWW6ybcw4M?si=nCT1uuEqkU7veHkf
 
 
 
