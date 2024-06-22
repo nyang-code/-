@@ -30,20 +30,20 @@ css, js -> React
 
 ## 구현결과 
 > 메인화면 <br>
-> <img src="https://github.com/nyang-code/night-market/assets/85928740/8a9767f5-4f65-42c4-992a-a83677a90ea8" width="500px"/>
-<img src="https://github.com/nyang-code/night-market/assets/85928740/4baf3843-755e-4bd7-921d-55976158c9d5" width="500px"/><br>
+> <img src="https://github.com/nyang-code/night-market/assets/85928740/8a9767f5-4f65-42c4-992a-a83677a90ea8" width="400px"/>
+<img src="https://github.com/nyang-code/night-market/assets/85928740/4baf3843-755e-4bd7-921d-55976158c9d5" width="400px"/><br>
 > 메인화면 2 (모바일과 데스크탑 등 다양한 기기에서 원화랗게 사용 가능한 반응형 웹사이트로 구현)<br> <img src="https://github.com/nyang-code/night-market/assets/85928740/bae9c0ba-ea1d-4ac8-8b5e-f1bf943986b2" width="500px"/> <br>
 > 야시장 리스트 페이지<br>
 > <img src="https://github.com/nyang-code/night-market/assets/85928740/313c21e0-a593-4c2d-a7c9-c22813101b8b" width="500px"/> <br>
 > 야시장 소개 페이지 <br>
-> <img src="https://github.com/nyang-code/night-market/assets/85928740/89dfb14d-acd5-46ae-9fbe-59dab066ccf2" width="500px"/><img src="https://github.com/nyang-code/night-market/assets/85928740/18893270-4b30-499e-a56e-94bd5efed378" width="500px"/> <br>
+> <img src="https://github.com/nyang-code/night-market/assets/85928740/89dfb14d-acd5-46ae-9fbe-59dab066ccf2" width="450px"/><img src="https://github.com/nyang-code/night-market/assets/85928740/18893270-4b30-499e-a56e-94bd5efed378" width="450px"/> <br>
 > 야시장 위치 소개 페이지 <br>
 > <img src="https://github.com/nyang-code/night-market/assets/85928740/4cf4c602-8564-471c-b64a-bd880d1aec82" width="500px"/><img src="https://github.com/nyang-code/night-market/assets/85928740/52bec450-ba7a-4b9c-a9de-05d278cd3054" width="500px"/> <br>
 > 자세히 보기 클릭하면 나오는 페이지 <br>
 > <img src="https://github.com/nyang-code/night-market/assets/85928740/d3b4bddb-60c8-4c24-862c-ba6b5273f15a" width="500px"/><br>
 > 문의하기 페이지 <br>
-> <img src="https://github.com/nyang-code/night-market/assets/85928740/b2ecdbe2-ca2b-4a58-85da-c692b6034d6e" width="500px"/>
-<img src="https://github.com/nyang-code/night-market/assets/85928740/22fa7d65-3580-4185-8151-709ca1e121f9" width="500px"/><br>
+> <img src="https://github.com/nyang-code/night-market/assets/85928740/b2ecdbe2-ca2b-4a58-85da-c692b6034d6e" width="450px"/>
+<img src="https://github.com/nyang-code/night-market/assets/85928740/22fa7d65-3580-4185-8151-709ca1e121f9" width="450px"/><br>
 
 
 ## 기대효과 
